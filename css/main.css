@@ -1,0 +1,67 @@
+body, html {
+	font-family:'Open Sans', 'Helvetica', 'Arial', sans-serif;
+}
+@-webkit-keyframes spin {
+	from {
+		-webkit-transform: rotate(0deg);
+	}
+
+	to {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+.container {
+	width:100%;
+	max-width:600px;
+	margin-left:auto;
+	margin-right:auto;
+
+	padding-top:40px;
+
+	
+}
+
+.spin {
+	-webkit-animation-duration:3s;
+	animation-duration:3s;
+
+	-webkit-animation-name: spin;
+	animation-name: spin;
+}
+
+.meat img {
+	width:100%;
+}
+
+.count {
+	margin-top:20px;
+}
+
+#spins {
+	font-weight:bold;
+	font-size:2em;
+	padding:0 5px 0 5px;
+}
+
+p {
+	padding:0;
+	margin:0;
+
+	margin-bottom:2px;
+}
+
+a {
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+footer {
+	margin-top:25px;
+	border-top:1px solid #efefef;
+	padding-top:15px;
+}
+
